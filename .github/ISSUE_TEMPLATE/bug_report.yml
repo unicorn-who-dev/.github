@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible problem in a public Unicorn Who Dev project
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Remove private files, credentials, prompts, datasets and machine-specific secrets before submitting.
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened?
+      description: Describe the visible result and what you expected instead.
+      placeholder: A clear, concise description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: List the smallest sequence of steps that reproduces the problem.
+      placeholder: |
+        1. Install...
+        2. Run...
+        3. Open...
+        4. Observe...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Project version or commit
+      placeholder: v0.2.1-beta or commit SHA
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include OS, application/runtime versions, GPU when relevant and installation method.
+      placeholder: Windows 11, Node 22, Unity 6, RTX 5070 Ti...
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or evidence
+      description: Paste only the relevant excerpt. Redact secrets and personal paths.
+      render: shell
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I searched existing issues and documentation.
+          required: true
+        - label: I removed credentials, private data and personal paths.
+          required: true
