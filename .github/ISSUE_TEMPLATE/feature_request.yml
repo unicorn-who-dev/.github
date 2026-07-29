@@ -1,0 +1,40 @@
+name: Feature request
+description: Propose a focused improvement for a public Unicorn Who Dev project
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the user problem before describing a solution.
+      placeholder: When I try to..., I cannot..., which means...
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected result
+      description: What concrete outcome should the project produce?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Optional implementation or interaction idea.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Existing workflows, workarounds or tools you tried.
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Project boundaries
+      options:
+        - label: This request fits the public repository's stated scope and licence.
+          required: true
+        - label: I searched existing issues and the roadmap.
+          required: true
