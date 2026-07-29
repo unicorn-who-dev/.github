@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Unicorn Who Dev</title>
+  <desc id="desc">Local-first software, AI-assisted workflows and practical 3D tools.</desc>
+  <rect width="1200" height="360" rx="28" fill="#F7F3EA"/>
+  <circle cx="1055" cy="78" r="132" fill="#F97316" opacity="0.14"/>
+  <circle cx="1120" cy="302" r="180" fill="#2563EB" opacity="0.12"/>
+  <path d="M73 270C205 160 292 168 404 235C514 301 623 301 770 181C875 95 974 95 1128 167" fill="none" stroke="#111827" stroke-width="5" stroke-linecap="round" opacity="0.18"/>
+  <text x="72" y="130" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="800" fill="#111827">UNICORN WHO DEV</text>
+  <text x="75" y="190" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="27" font-weight="600" fill="#374151">LOCAL-FIRST SOFTWARE · AI WORKFLOWS · 3D TOOLS</text>
+  <rect x="75" y="232" width="505" height="52" rx="26" fill="#111827"/>
+  <text x="104" y="266" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#F7F3EA">BUILD LOCALLY · REVIEW EXPLICITLY · SHIP HONESTLY</text>
+</svg>
