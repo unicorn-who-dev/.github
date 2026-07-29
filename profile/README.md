@@ -47,6 +47,6 @@ A commercial collection of native instruments and audio effects. Product pages, 
 
 Unicorn Who Dev is an independent, solo-developed software studio. The repositories are organised by product responsibility rather than by a single shared runtime: commercial audio products remain private, while selected tools and technical pipelines are published for inspection and reuse under the licence stated in each repository.
 
-Separately, [FireViewer](https://github.com/fireviewer) is maintained as an independent public-interest R&D initiative.
+Separately: [FireViewer](https://github.com/fireviewer), an independent public-interest R&D initiative.
 
 For product information and the wider portfolio, visit [unicornwhodev.com](https://www.unicornwhodev.com/).
